@@ -5,8 +5,7 @@ This Java console application simulates an **ATM system**, allowing users to per
 ---
 
 ## 🧩 Class Diagram
-📌 *(You can upload an image named `class-diagram.png` here for reference)*  
-![Class Diagram](Screenshot%202025-02-03%20224816.png)
+https://github.com/user-attachments/assets/07941c8e-f98d-4fd0-b3cf-4da1f1c5455d
 
 ---
 
