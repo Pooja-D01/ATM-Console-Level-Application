@@ -1,81 +1,54 @@
-# ATM-Console-Level-ApplicationATM Management System - Java Console Application
-This Java console application simulates an ATM system, allowing users to perform various banking transactions such as checking balance, depositing money, withdrawing money, and view transaction. It emphasizes secure handling of user data and transactions.
+# 💳 ATM Management System - Java Console Application
 
-Class Diagram
-Screenshot 2025-02-03 224816
-🎬 Demo Video
- WhatsApp.Video.2025-06-22.at.1.56.11.PM.mp4 
-Features
-User Authentication:
+This Java console application simulates an **ATM system**, allowing users to perform core banking operations like checking balance, depositing money, withdrawing cash, and viewing transaction history. The project emphasizes secure handling of user data and demonstrates core **Object-Oriented Programming (OOP)** principles in action.
 
-Secure login system requiring users to enter a valid account number and PIN.
-Check Balance:
+---
 
-Allows users to view their current account balance.
-Deposit Money:
+## 🧩 Class Diagram
+📌 *(You can upload an image named `class-diagram.png` here for reference)*  
+![Class Diagram](Screenshot%202025-02-03%20224816.png)
 
-Enables users to deposit amount into their account.
-Withdraw Money:
+---
 
-Allows users to withdraw amount from their account, with checks for sufficient balance.
-Transaction History:
+## 🎬 Execution Video
+▶️ [ATM Execution Video - Main.java](BUBALATM.Main.java.2025-02-04.20-09-13.1.1.mp4)
 
-Maintains a record of all transactions performed by the user.
-Data Persistence:
+---
 
-User account data and transaction history are stored persistently, ensuring data is retained across sessions.
-Error Handling:
+## ✨ Features
 
-Implements robust error handling to manage invalid inputs, insufficient funds, and other potential issues.
-User-Friendly Interface:
+### 🔐 User Authentication
+- Secure login system with account number and PIN validation.
 
-Provides a clear and easy-to-navigate command-line interface.
-Technologies Used
-Java:
+### 💰 Check Balance
+- View current balance of the logged-in user.
 
-The primary programming language used for development.
-Object-Oriented Programming (OOP) Principles:
+### 🏦 Deposit Money
+- Add funds to the user account with instant balance update.
 
-Encapsulation, Inheritance, and Polymorphism are used to structure the application effectively.
-Data Structures:
+### 💸 Withdraw Money
+- Withdraw cash after validating sufficient balance.
 
-Appropriate data structures (e.g., ArrayList) are used to manage user accounts and transactions.
-Installation
-step 1: Compile the application:
-javac ATM.java
-step 2: Run the application:
+### 📜 Transaction History
+- View full history of deposits and withdrawals (user-specific and admin-level access).
 
-java ATM
-Usage Instructions
-Login:
+### 💾 Data Persistence
+- Stores user details and transactions across sessions using persistent storage (e.g., file-based or memory-based).
 
-Enter your account number and PIN when prompted.
-Main Menu:
+### ⚠️ Error Handling
+- Handles invalid input, insufficient funds, incorrect login attempts, and other runtime issues.
 
-After successful admin login, you will be presented with a menu of options:
+### 🖥️ User-Friendly Interface
+- Clean and easy-to-use command-line interface with guided prompts.
 
-Check Balance
-Deposit
-Withdraw
-Transaction History(user / admin)
-Exit
-After successful user login, you will be presented with a menu of options:
+---
 
-Check Balance
-Deposit
-Withdraw
-Transaction History
-Change PIN
-Exit
-Follow Prompts:
+## 🛠️ Technologies Used
 
-The application will guide you through the necessary steps for each transaction.
-Exit:
+- **Java** – Primary development language
+- **OOP Principles** – Encapsulation, Inheritance, Polymorphism
+- **Data Structures** – `ArrayList` and other Java collections
 
-Choose the "Exit" option to terminate the program.
-Security Considerations
-Input Validation: The application should thoroughly validate user input to prevent errors and potential security vulnerabilities.
-Contact
-Developer: Rithani
-Email: rithanirajkumar2@gmail.com
-LinkedIn: www.linkedin.com/in/bubalan-s-1515a82b0
+---
+
+
