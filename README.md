@@ -1,53 +1,104 @@
-# 💳 ATM Management System - Java Console Application
+# ATM Management System - Java Console Application
 
-This Java console application simulates an **ATM system**, allowing users to perform core banking operations like checking balance, depositing money, withdrawing cash, and viewing transaction history. The project emphasizes secure handling of user data and demonstrates core **Object-Oriented Programming (OOP)** principles in action.
-
----
-
-## 🧩 Class Diagram
-https://github.com/user-attachments/assets/07941c8e-f98d-4fd0-b3cf-4da1f1c5455d
+This Java console application simulates an ATM system, allowing users to perform various banking transactions such as checking balance, depositing money, withdrawing money, and view transaction.  It emphasizes secure handling of user data and transactions.
 
 ---
+## **Class Diagram**
 
-## 🎬 Execution Video
+<img width="395" alt="Screenshot 2025-02-03 224816" src="https://github.com/user-attachments/assets/07941c8e-f98d-4fd0-b3cf-4da1f1c5455d" />
+
+## 🎬 Demo Video
+
 https://github.com/user-attachments/assets/c6e06c3a-a268-4f25-a9f5-668de446ed6c
 
----
 
-## ✨ Features
+## Features
 
-### 🔐 User Authentication
-- Secure login system with account number and PIN validation.
+1. *User Authentication:*
+    - Secure login system requiring users to enter a valid account number and PIN.
 
-### 💰 Check Balance
-- View current balance of the logged-in user.
+2. *Check Balance:*
+    - Allows users to view their current account balance.
 
-### 🏦 Deposit Money
-- Add funds to the user account with instant balance update.
+3. *Deposit Money:*
+    - Enables users to deposit amount into their account.
 
-### 💸 Withdraw Money
-- Withdraw cash after validating sufficient balance.
+4. *Withdraw Money:*
+    - Allows users to withdraw amount from their account, with checks for sufficient balance.
 
-### 📜 Transaction History
-- View full history of deposits and withdrawals (user-specific and admin-level access).
+5. *Transaction History:*
+    - Maintains a record of all transactions performed by the user.
 
-### 💾 Data Persistence
-- Stores user details and transactions across sessions using persistent storage (e.g., file-based or memory-based).
+6. *Data Persistence:*
+    - User account data and transaction history are stored persistently, ensuring data is retained across sessions.
 
-### ⚠️ Error Handling
-- Handles invalid input, insufficient funds, incorrect login attempts, and other runtime issues.
+7. *Error Handling:*
+    - Implements robust error handling to manage invalid inputs, insufficient funds, and other potential issues.
 
-### 🖥️ User-Friendly Interface
-- Clean and easy-to-use command-line interface with guided prompts.
-
----
-
-## 🛠️ Technologies Used
-
-- **Java** – Primary development language
-- **OOP Principles** – Encapsulation, Inheritance, Polymorphism
-- **Data Structures** – `ArrayList` and other Java collections
+8. *User-Friendly Interface:*
+    - Provides a clear and easy-to-navigate command-line interface.
 
 ---
 
+## Technologies Used
 
+1. *Java:*
+    - The primary programming language used for development.
+
+2. *Object-Oriented Programming (OOP) Principles:*
+    - Encapsulation, Inheritance, and Polymorphism are used to structure the application effectively.
+
+3. *Data Structures:*
+    - Appropriate data structures (e.g., ArrayList) are used to manage user accounts and transactions.
+
+---
+
+## Installation
+
+### *step 1: Compile the application:*
+```bash
+javac ATM.java
+```
+
+*step 2:  Run the application:*
+```bash  
+java ATM
+```
+
+
+## Usage Instructions
+
+1. *Login:*
+   - Enter your account number and PIN when prompted.
+
+2. *Main Menu:*
+   - After successful admin login, you will be presented with a menu of options:
+     - Check Balance
+     - Deposit
+     - Withdraw
+     - Transaction History(user / admin)
+     - Exit
+   
+   - After successful user login, you will be presented with a menu of options:
+     - Check Balance
+     - Deposit
+     - Withdraw
+     - Transaction History
+     - Change PIN
+     - Exit
+
+3. *Follow Prompts:*
+   - The application will guide you through the necessary steps for each transaction.
+
+4. *Exit:*
+   - Choose the "Exit" option to terminate the program.
+
+## Security Considerations
+
+* *Input Validation:* The application should thoroughly validate user input to prevent errors and potential security vulnerabilities.
+
+## Contact
+
+* *Developer:* Pooja D
+* *Email:* poojasuresh8925@gmail.com
+* *LinkedIn:* https://www.linkedin.com/in/pooja-d-668810319
