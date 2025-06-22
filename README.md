@@ -10,7 +10,7 @@ https://github.com/user-attachments/assets/07941c8e-f98d-4fd0-b3cf-4da1f1c5455d
 ---
 
 ## 🎬 Execution Video
-▶️ [ATM Execution Video - Main.java](BUBALATM.Main.java.2025-02-04.20-09-13.1.1.mp4)
+https://github.com/user-attachments/assets/c6e06c3a-a268-4f25-a9f5-668de446ed6c
 
 ---
 
